@@ -16,7 +16,7 @@ Used JQuery (JavaScript Library) to dynamically create and update the HTML marku
 
 ## Published on GitHub Pages
 
-[deployed_link](https://lauriestrecker.github.io/HW-Wireframe/ "GitHub Pages")
+[deployed_link](https://lauriestrecker.github.io/Task_List/ "GitHub Pages")
 
 
 ## Versioning
