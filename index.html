@@ -5,29 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo</title>
     <link rel="stylesheet" href="assets/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Gloria+Hallelujah|Open+Sans:400,700|Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-  <h1>Sieze the Day</h1>
-  </header>
+  
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Task Master</h1>
+      <p class="lead">Complete your goals, by making a list.</p>
+    </div>
+  </div>
 
-    <div class="wrapper main-content">
+  <div class="wrapper main-content">
 
-        <section class="add-task box-2">
+        <section class="add-task">
           <input type="text" id="newtask">
-            <button id="add">Get it Done</button>
+            <button class="btn btn-primary" id="add">Add Task</button>
         </section>
 
-          <section class="task-list box-3">
+          <section class="task-list">
              <div id="tasks"></div>
           </section>
-        </div>
 
+          
+
+        </div>
         <footer>
-          <p>&copy; LStrecker 2020</p>
+          <p>&copy; Strecker 2020</p>
         </footer>
-    
+      
       <!-- jQuery -->
         <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
